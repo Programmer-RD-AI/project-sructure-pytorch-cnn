@@ -1,0 +1,133 @@
+2021-05-21 20:22:05,028 INFO    MainThread:132027 [internal.py:wandb_internal():91] W&B internal server running at pid: 132027, started at: 2021-05-21 20:22:05.028152
+2021-05-21 20:22:05,030 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: check_version
+2021-05-21 20:22:05,030 DEBUG   SenderThread:132027 [sender.py:send():176] send: header
+2021-05-21 20:22:05,031 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: check_version
+2021-05-21 20:22:05,030 INFO    WriterThread:132027 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/run-3a162dli.wandb
+2021-05-21 20:22:05,472 DEBUG   SenderThread:132027 [sender.py:send():176] send: run
+2021-05-21 20:22:05,475 DEBUG   SenderThread:132027 [git.py:repo():33] git repository is invalid
+2021-05-21 20:22:06,088 INFO    SenderThread:132027 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files
+2021-05-21 20:22:06,088 INFO    SenderThread:132027 [sender.py:_start_run_threads():699] run started: 3a162dli with start time 1621608724
+2021-05-21 20:22:06,088 DEBUG   SenderThread:132027 [sender.py:send():176] send: summary
+2021-05-21 20:22:06,089 INFO    SenderThread:132027 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-21 20:22:06,089 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: run_start
+2021-05-21 20:22:07,091 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-summary.json
+2021-05-21 20:22:08,619 DEBUG   HandlerThread:132027 [meta.py:__init__():39] meta init
+2021-05-21 20:22:08,620 DEBUG   HandlerThread:132027 [meta.py:__init__():53] meta init done
+2021-05-21 20:22:08,620 DEBUG   HandlerThread:132027 [meta.py:probe():210] probe
+2021-05-21 20:22:08,626 DEBUG   HandlerThread:132027 [git.py:repo():33] git repository is invalid
+2021-05-21 20:22:08,626 DEBUG   HandlerThread:132027 [meta.py:_save_code():89] save code
+2021-05-21 20:22:08,626 DEBUG   HandlerThread:132027 [meta.py:_save_code():110] save code done
+2021-05-21 20:22:08,626 DEBUG   HandlerThread:132027 [meta.py:_save_pip():57] save pip
+2021-05-21 20:22:08,627 DEBUG   HandlerThread:132027 [meta.py:_save_pip():71] save pip done
+2021-05-21 20:22:08,627 DEBUG   HandlerThread:132027 [meta.py:_save_conda():78] save conda
+2021-05-21 20:22:09,091 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/code/train.py
+2021-05-21 20:22:09,092 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/requirements.txt
+2021-05-21 20:22:09,092 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/conda-environment.yaml
+2021-05-21 20:22:09,092 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/code
+2021-05-21 20:22:12,092 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/output.log
+2021-05-21 20:22:13,093 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/conda-environment.yaml
+2021-05-21 20:22:13,227 DEBUG   HandlerThread:132027 [meta.py:_save_conda():86] save conda done
+2021-05-21 20:22:13,228 DEBUG   HandlerThread:132027 [meta.py:probe():252] probe done
+2021-05-21 20:22:13,232 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 20:22:13,232 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 20:22:13,464 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-21 20:22:13,718 DEBUG   SenderThread:132027 [sender.py:send():176] send: files
+2021-05-21 20:22:13,719 INFO    SenderThread:132027 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-21 20:22:13,720 INFO    SenderThread:132027 [sender.py:_save_file():821] saving file code/train.py with policy now
+2021-05-21 20:22:13,720 DEBUG   SenderThread:132027 [sender.py:send():176] send: telemetry
+2021-05-21 20:22:13,720 DEBUG   SenderThread:132027 [sender.py:send():176] send: exit
+2021-05-21 20:22:13,721 INFO    SenderThread:132027 [sender.py:send_exit():281] handling exit code: 1
+2021-05-21 20:22:13,721 INFO    SenderThread:132027 [sender.py:send_exit():289] send defer
+2021-05-21 20:22:13,721 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: poll_exit
+2021-05-21 20:22:13,721 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:13,722 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-21 20:22:13,722 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:13,725 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-21 20:22:13,728 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 1
+2021-05-21 20:22:13,730 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:13,730 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-21 20:22:13,799 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:13,799 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-21 20:22:13,800 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 2
+2021-05-21 20:22:13,800 DEBUG   SenderThread:132027 [sender.py:send():176] send: stats
+2021-05-21 20:22:13,800 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:13,800 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-21 20:22:13,800 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:13,801 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-21 20:22:13,801 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 3
+2021-05-21 20:22:13,801 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:13,801 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-21 20:22:13,801 DEBUG   SenderThread:132027 [sender.py:send():176] send: summary
+2021-05-21 20:22:13,801 INFO    SenderThread:132027 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-21 20:22:13,801 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:13,802 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-21 20:22:13,802 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 4
+2021-05-21 20:22:13,802 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:13,802 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-21 20:22:13,802 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:13,802 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-21 20:22:13,823 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-21 20:22:14,093 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-summary.json
+2021-05-21 20:22:14,093 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/output.log
+2021-05-21 20:22:14,093 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-metadata.json
+2021-05-21 20:22:14,316 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 5
+2021-05-21 20:22:14,317 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: poll_exit
+2021-05-21 20:22:14,317 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:14,317 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-21 20:22:14,317 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:14,317 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-21 20:22:14,317 INFO    SenderThread:132027 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-21 20:22:14,418 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-21 20:22:14,902 INFO    Thread-11 :132027 [upload_job.py:push():133] Uploaded file /tmp/tmp6xa4ko_xwandb/28x5b1ze-wandb-metadata.json
+2021-05-21 20:22:14,978 INFO    Thread-12 :132027 [upload_job.py:push():133] Uploaded file /tmp/tmp6xa4ko_xwandb/2l6wr0ir-code/train.py
+2021-05-21 20:22:15,094 INFO    Thread-8  :132027 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/config.yaml
+2021-05-21 20:22:15,094 INFO    SenderThread:132027 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files
+2021-05-21 20:22:15,095 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/conda-environment.yaml conda-environment.yaml
+2021-05-21 20:22:15,095 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-metadata.json wandb-metadata.json
+2021-05-21 20:22:15,095 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/config.yaml config.yaml
+2021-05-21 20:22:15,098 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/requirements.txt requirements.txt
+2021-05-21 20:22:15,101 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/output.log output.log
+2021-05-21 20:22:15,102 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-summary.json wandb-summary.json
+2021-05-21 20:22:15,103 INFO    SenderThread:132027 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/code/train.py code/train.py
+2021-05-21 20:22:15,106 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 6
+2021-05-21 20:22:15,106 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: poll_exit
+2021-05-21 20:22:15,108 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:15,109 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-21 20:22:15,112 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:15,112 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-21 20:22:15,112 INFO    SenderThread:132027 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-21 20:22:15,112 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 7
+2021-05-21 20:22:15,112 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:15,112 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-21 20:22:15,112 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:15,112 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-21 20:22:15,209 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-21 20:22:15,764 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 8
+2021-05-21 20:22:15,764 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: poll_exit
+2021-05-21 20:22:15,764 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:15,765 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-21 20:22:15,765 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:15,765 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-21 20:22:15,765 INFO    SenderThread:132027 [sender.py:send_request_defer():336] send defer: 9
+2021-05-21 20:22:15,765 DEBUG   SenderThread:132027 [sender.py:send():176] send: final
+2021-05-21 20:22:15,766 DEBUG   SenderThread:132027 [sender.py:send():176] send: footer
+2021-05-21 20:22:15,766 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: defer
+2021-05-21 20:22:15,766 INFO    HandlerThread:132027 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-21 20:22:15,766 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: defer
+2021-05-21 20:22:15,766 INFO    SenderThread:132027 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-21 20:22:15,866 DEBUG   HandlerThread:132027 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-21 20:22:15,866 DEBUG   SenderThread:132027 [sender.py:send_request():186] send_request: poll_exit
+2021-05-21 20:22:15,939 WARNING MainThread:132027 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-05-21 20:22:16,354 INFO    Thread-14 :132027 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/config.yaml
+2021-05-21 20:22:16,355 INFO    Thread-17 :132027 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/wandb-summary.json
+2021-05-21 20:22:16,355 INFO    Thread-13 :132027 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/conda-environment.yaml
+2021-05-21 20:22:16,468 INFO    Thread-16 :132027 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/output.log
+2021-05-21 20:22:16,533 INFO    Thread-15 :132027 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/files/requirements.txt
+2021-05-21 20:22:22,946 WARNING MainThread:132027 [internal.py:is_dead():367] Internal process exiting, parent pid 131837 disappeared
+2021-05-21 20:22:22,946 ERROR   MainThread:132027 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-05-21 20:22:23,767 INFO    WriterThread:132027 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_202204-3a162dli/run-3a162dli.wandb
+2021-05-21 20:22:23,867 INFO    SenderThread:132027 [sender.py:finish():925] shutting down sender
+2021-05-21 20:22:23,868 INFO    SenderThread:132027 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-21 20:22:23,868 INFO    SenderThread:132027 [file_pusher.py:join():181] waiting for file pusher
+2021-05-21 20:22:23,874 INFO    HandlerThread:132027 [handler.py:finish():632] shutting down handler
+2021-05-21 20:22:23,875 INFO    MainThread:132027 [internal.py:handle_exit():78] Internal process exited

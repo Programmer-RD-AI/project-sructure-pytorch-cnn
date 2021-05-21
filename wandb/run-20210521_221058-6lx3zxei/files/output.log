@@ -1,0 +1,1 @@
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")

@@ -1,0 +1,1 @@
+        [0.3944, 0.4951]], device='cuda:0', grad_fn=<SigmoidBackward>)

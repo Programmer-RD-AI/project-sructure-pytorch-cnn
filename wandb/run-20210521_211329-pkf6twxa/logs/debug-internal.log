@@ -1,0 +1,24 @@
+2021-05-21 21:13:32,572 INFO    MainThread:180076 [internal.py:wandb_internal():91] W&B internal server running at pid: 180076, started at: 2021-05-21 21:13:32.572440
+2021-05-21 21:13:32,574 DEBUG   HandlerThread:180076 [handler.py:handle_request():121] handle_request: check_version
+2021-05-21 21:13:32,574 INFO    WriterThread:180076 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_211329-pkf6twxa/run-pkf6twxa.wandb
+2021-05-21 21:13:32,576 DEBUG   SenderThread:180076 [sender.py:send():176] send: header
+2021-05-21 21:13:32,576 DEBUG   SenderThread:180076 [sender.py:send_request():186] send_request: check_version
+2021-05-21 21:13:33,253 DEBUG   SenderThread:180076 [sender.py:send():176] send: run
+2021-05-21 21:13:33,254 DEBUG   SenderThread:180076 [git.py:repo():33] git repository is invalid
+2021-05-21 21:13:34,077 INFO    SenderThread:180076 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_211329-pkf6twxa/files
+2021-05-21 21:13:34,078 INFO    SenderThread:180076 [sender.py:_start_run_threads():699] run started: pkf6twxa with start time 1621611812
+2021-05-21 21:13:34,078 DEBUG   SenderThread:180076 [sender.py:send():176] send: summary
+2021-05-21 21:13:34,078 INFO    SenderThread:180076 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-21 21:13:34,079 DEBUG   HandlerThread:180076 [handler.py:handle_request():121] handle_request: run_start
+2021-05-21 21:13:35,079 INFO    Thread-8  :180076 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_211329-pkf6twxa/files/wandb-summary.json
+2021-05-21 21:13:35,090 DEBUG   HandlerThread:180076 [meta.py:__init__():39] meta init
+2021-05-21 21:13:35,090 DEBUG   HandlerThread:180076 [meta.py:__init__():53] meta init done
+2021-05-21 21:13:35,090 DEBUG   HandlerThread:180076 [meta.py:probe():210] probe
+2021-05-21 21:13:35,096 DEBUG   HandlerThread:180076 [git.py:repo():33] git repository is invalid
+2021-05-21 21:13:35,096 DEBUG   HandlerThread:180076 [meta.py:_save_code():89] save code
+2021-05-21 21:13:35,096 WARNING HandlerThread:180076 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-21 21:13:35,096 DEBUG   HandlerThread:180076 [meta.py:_save_pip():57] save pip
+2021-05-21 21:13:35,096 DEBUG   HandlerThread:180076 [meta.py:_save_pip():71] save pip done
+2021-05-21 21:13:35,096 DEBUG   HandlerThread:180076 [meta.py:_save_conda():78] save conda
+2021-05-21 21:13:36,081 INFO    Thread-8  :180076 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_211329-pkf6twxa/files/conda-environment.yaml
+2021-05-21 21:13:36,082 INFO    Thread-8  :180076 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Mask-Detection-PT-V2/wandb/run-20210521_211329-pkf6twxa/files/requirements.txt
